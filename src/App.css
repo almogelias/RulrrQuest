@@ -36,3 +36,131 @@
     transform: rotate(360deg);
   }
 }
+
+
+/* Here it's my custom code */
+
+/* .navbar-expand-lg .navbar-nav .nav-link #navbarScrollingDropdown {
+  text-decoration-color: #52D1EC;
+} */
+
+#navbarScrollingDropdown{
+  text-decoration-color: #52D1EC !important;
+}
+
+video{
+  width: 100%;
+  height: auto;
+}
+video::-webkit-media-controls {
+  display: none;
+}
+
+.mainVideoContainer{
+  position: relative;
+ 
+}
+
+.mainVideoContainer .discoverBtn {
+  position: absolute;
+  top: 50%;
+  left: 90%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  min-width: 15%;
+  color: #52ecef;
+  background-color: rgba(0,0,0,.2);
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+  border: 1.5px solid var(--unnamed-color-52d1ec);
+  border: 2px solid #52D1EC;
+  border-radius: 25px;
+  opacity: 1;
+  
+}
+.mainVideoContainer .discoverBtn:hover {
+  background-color: #52D1EC;
+  border-color: #52D1EC;
+  color: white;
+}
+
+.scrollDownBtn{
+  position: absolute;
+  top: 95%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  min-width: 2%;
+  background-color: rgba(74, 71, 71, 0) !important;
+  border-color: rgba(111,111,111,0) !important;
+}
+
+.scrollDownBtn #faArrow{
+  color: #52D1EC;
+}
+
+.sectionAdvertisingContainer{
+  position: relative;
+}
+
+.advertisingContainer{
+  background-color: #7A7A7A;
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  color:white;
+  height: 350px;
+  margin:auto;
+  
+}
+
+.advertisingHeader{
+  padding-top: 35px;
+  font-size: 100px;
+  margin-bottom: -60px;
+}
+
+.advertisingSection{
+  margin-top:35px;
+  font-size: 23px;
+}
+
+#boldingBlue{
+  color: #52D1EC;
+}
+
+.automatedStore{
+ padding: 100px 0 100px 0;
+}
+
+.automatedStoreData{
+  text-align: left;
+  
+}
+.automatedStoreHeader{
+  font-size: 35px;
+  letter-spacing: 0px;
+  margin-bottom: 25px;
+}
+
+.automatedStoreBtn{
+  margin-top: 50px;
+  color: #52ecef !important;
+  background-color: rgba(0,0,0,0) !important;
+  font-size: 16px;
+  padding: 12px 24px;
+  border-color: #52ecef !important;
+  cursor: pointer;
+  border-radius: 18px !important;
+  
+}
+
+.automatedStoreBtn:hover {
+  background-color: #52D1EC !important;
+  border-color: #52D1EC !important;
+  color: white !important;
+}
+
